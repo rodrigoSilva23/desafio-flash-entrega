@@ -1,0 +1,11 @@
+.menu {
+  background: #fbc20a;
+}
+.container-img-menu{
+  display:flex;
+  justify-content: center;
+  width: 100%;
+}
+.container-img-menu img{
+  width: 50%;
+}

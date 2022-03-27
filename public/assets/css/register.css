@@ -1,0 +1,86 @@
+
+
+
+label{
+ margin: 0;
+  display: flex;
+  text-align: end;
+}
+
+label p{
+ line-height: 20px;
+ margin: 1px !important;
+ 
+}
+
+h2 {
+  margin-top: .4em;
+  display:flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  font-weight: bold;
+}
+h3{
+  margin: .5em;
+  position: absolute;
+  top: 10%;
+  right: 3%;
+  font-size: 1em;
+  display: flex;
+}
+p {
+  
+  margin-right: 0.3rem;
+  font-size: 1em;
+  font-weight: bold;
+  color:red;
+
+}
+
+.isCep{
+visibility: hidden;
+}
+
+.showCep{
+  visibility: visible;
+  
+}
+
+.hidden_p{
+  color:transparent;
+
+}
+
+::-webkit-scrollbar {
+  width: 11px;
+  height: 11px;
+ }
+ ::-webkit-scrollbar-thumb {
+  background: linear-gradient(13deg, #a8a5a8 14%,#e4e4eb 64%);
+  border-radius: 10px;
+  box-shadow: inset 7px 7px 12px #cfcbcb;
+ }
+ ::-webkit-scrollbar-thumb:hover{
+  background: linear-gradient(13deg, #c7ceff 14%,#f9d4ff 64%);
+ }
+ ::-webkit-scrollbar-track{
+  background: #ffffff;
+  border-radius: 10px;
+  box-shadow: inset 7px 10px 12px #f0f0f0;
+ }
+
+ @media (max-width: 768px) {
+
+   .card-title h3{
+     top:50px;
+   }
+ }
+ @media (max-width: 425px) {
+  .card-title{
+   text-align: center;
+  }
+   .card-title h3{
+     top:80px;
+   }
+ }
